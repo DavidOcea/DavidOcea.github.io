@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "机器学习入门（名词科普）"
+title: "（转载）机器学习入门（名词科普）"
 date: 2016-07-05 
 description: "机器学习入门篇"
 tag: 机器学习  
@@ -36,4 +36,4 @@ tag: 机器学习
 
 <br>
 
-转载请注明：[潘柏信的博客](http://baixin) » [点击阅读原文](http://baixin.io/2016/07/MachineLearning_introduce/)
+转载自[潘柏信的博客](http://baixin) » [点击阅读原文](http://baixin.io/2016/07/MachineLearning_introduce/)
