@@ -1,7 +1,7 @@
 ---
 layout: post
 title: （转载）Jekyll搭建个人博客
-date: 2016-10-14 
+date: 2018-10-14 
 tags: 博客   
 ---
 
