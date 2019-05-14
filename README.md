@@ -23,9 +23,10 @@ Jekyll 需要依赖：Ruby、bundler
 > $ git clone https://github.com/leopardpan/leopardpan.github.io.git
 
 或者直接[下载博客](https://github.com/leopardpan/leopardpan.github.io/archive/master.zip)   
-
-进leopardpan.github.io/ 目录下， 开启本地服务 ，或者直接下载我的也可以
+或者直接下载我的也可以
 > $ https://github.com/DavidOcea/DavidOcea.github.io.git
+
+进leopardpan.github.io/ 目录下， 开启本地服务:
 
 > $ jekyll server
 
