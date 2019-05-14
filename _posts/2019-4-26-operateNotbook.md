@@ -78,6 +78,8 @@ tag: 闪马
     nvidia-smi
 * .查看所有进程：(装有htop到话用htop命令）
     ps ax
+* .jekyll sever 本地启动，（进入blog目录）
+   bundle exec jekyll serve
 
 
 
