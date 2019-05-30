@@ -9,24 +9,26 @@ tags: python/闪马
 	作为一名程序员，除了需要具备解决问题的思路以外，代码的质量和简洁性也很关键。python内置库中就有很多简洁而又优雅的操作，这里的知识都来源于网络积累，闲暇时整理下来方便温故。
 
 ### 目录
- 
-#### [选择正确的内置功能](#Select the correct built-in function)	
+
+#### [>选择正确的内置功能](#Select the correct built-in function)	
 * [使用enumerate()而不是range()进行迭代](#use enumerate not range)
 * [使用递推式构造列表而不是map()和filter()](#without map and filter)
 * [使用断点breakpoint()调试而不是print()](#use breakpoint)
 * [使用f-Strings格式化字符串](#use f-String)
 * [使用sorted()对复杂列表进行排序](#use sorted)
-#### [有效利用数据结构](#Use data structures effectively)
+
+#### [>有效利用数据结构](#Use data structures effectively)
 * [使用set存储唯一值](#use enumerate not range)
 * [使用生成器节省内存](#use generator)
 * [使用.get()和.setdefault()在字典中定义默认值](#use .get and setdefault)
-#### [利用Python的标准库](#use Python standard library)
+
+#### [>利用Python的标准库](#use Python standard library)
 * [使用collections.defaultdict()处理缺少的字典键](#use collections.defdit)
 * [使用collections.Counter计算Hashable对象 ](#use counter)
 * [使用字符串常量访问公共字符串组](#use public string)
 * [使用Itertools生成排列和组合](#use itertools)
 
-## <a name='Select the correct built-in function'></a>选择正确的内置功能
+## <a name='Select the correct built-in function'></a>>选择正确的内置功能
 Python有一个大型标准库，但只有一个内置函数的小型库，这些函数总是可用的，不需要导入。
 ### <a name='use enumerate not range'></a>1. 使用enumerate()而不是range()进行迭代
 假如你需要遍历列表，同时访问索引和值。
@@ -190,7 +192,7 @@ f-string允许你将Maria放入字符串中，并在一个简洁的操作中添�
 
 通过传入一个返回每个元素年龄的lambda函数，可以轻松地按每个字典的单个值对字典列表进行排序。在这种情况下，字典现在按年龄按升序排序。
 
-## <a name='Use data structures effectively'></a>有效利用数据结构
+## <a name='Use data structures effectively'></a>>有效利用数据结构
 
 算法在面试中得到了很多关注，但数据结构可能更为重要。在coding面试环境中，选择正确的数据结构会对性能产生重大影响。除了理论数据结构之外，Python还在其标准数据结构实现中内置了强大而方便的功能。这些数据结构在面试中非常有用，因为它们默认为你提供了许多功能，让你可以将时间集中在问题的其他部分。
 
@@ -337,7 +339,7 @@ get()执行与第一种方法相同的操作，但现在它们会自动处理。
 
 .setdefault()完成与上面代码片段完全相同的操作。它检查cowboy中是否存在名称，如果是，则返回该值。否则，它将cowboy ['name']设置为The Man with No Name并返回新值。
 
-## <a name='use Python standard library'></a>利用Python的标准库
+## <a name='use Python standard library'></a>>利用Python的标准库
 默认情况下，Python提供了许多功能，这些功能只是一个导入语句。它本身就很强大，但知道如何利用标准库可以增强你的编码面试技巧。
 
 从所有可用模块中挑选最有用的部分很困难，因此本节将仅关注其实用功能的一小部分。希望这些对您在编码访谈中有用，并且您希望了解更多有关这些和其他模块的高级功能的信息。

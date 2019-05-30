@@ -10,9 +10,10 @@ tag: python/闪马
 虽然都是基础知识，但是好记性不如烂笔头，记录下来方便自己经常温故
 
 ### 目录
-python pdb调试有两种方式：一种通过命令python -m pdb xxx.py 启动脚本，进入单步执行模式；另一种通过import pdb 之后，直接在代码里需要调试的地方放一个pdb.set_trace()，就可以设置一个断点。
+python pdb调试有两种方式：一种通过命令`python -m pdb xxx.py` 启动脚本，进入单步执行模式；另一种通过`import pdb` 之后，直接在代码里需要调试的地方放一个`pdb.set_trace()`，就可以设置一个断点。
 * [通过命令python -m pdb xxx.py 启动脚本调试](#debug by python)
 * [通过import pdb之后调试](#debug by import)
+
 ### <a name="debug by python"></a>通过python直接调试
 #### 基本命令：
 
@@ -83,6 +84,6 @@ python pdb调试有两种方式：一种通过命令python -m pdb xxx.py 启动�
 
 ### <a name="debug by import"></a>通过import pdb后调试
 #### 基本操作
-* 直接修改xxx.py文件，添加import pdb 之后，直接在代码里需要调试的地方放一个pdb.set_trace()，就可以设置一个断点， 程序会在pdb.set_trace()暂停并进入pdb调试环境，可以用pdb 变量名查看变量，或者c继续运行。
+* 直接修改xxx.py文件，添加`import pdb`之后，直接在代码里需要调试的地方放一个`pdb.set_trace()`，就可以设置一个断点， 程序会在`pdb.set_trace()`暂停并进入pdb调试环境，可以用pdb 变量名查看变量，或者c继续运行。
 * 基本命令和注意事项同上⬆️
 
