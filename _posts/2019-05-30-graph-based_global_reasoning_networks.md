@@ -9,7 +9,7 @@ tags: 深度学习/闪马
 
 一直在用resent18做外卖分类，最近看到了这篇论文，看到效果不错，就想把它放到自己的训练模型中看看效果增益。
 	`书山有路勤为径，学海无涯苦作舟-----加油`
-
+* 论文：《Graph-Based Global Reasoning Networks》
 * 论文地址：https://research.fb.com/wp-content/uploads/2019/05/Graph-Based-Global-Reasoning-Networks.pdf? [点击阅读](https://research.fb.com/wp-content/uploads/2019/05/Graph-Based-Global-Reasoning-Networks.pdf?)
 
 ### 目录
