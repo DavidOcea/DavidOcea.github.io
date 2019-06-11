@@ -37,7 +37,7 @@ social:
 #
 #  _post/ 下的文章更换成你自己的文章
 #  帮忙star一下，感谢~😆 地址： （博客来源地址：https://github.com/leopardpan/leopardpan.github.io）
-#                            https://github.com/DavidOcea/DavidOcea.github.io/tree/master/leopardpan.github.io-master#
+#                            https://github.com/DavidOcea/DavidOcea.github.io/#
 #
 # 《--------------- 下面的信息可以自行选择是否修改 ------------------------》
 
@@ -63,7 +63,7 @@ nav:
     
 
 # Pagination
-gems: [jekyll-paginate,jekyll-sitemap]
+plugins: [jekyll-paginate,jekyll-sitemap]
 paginate: 20
 paginate_path: "page/:num/"
 
