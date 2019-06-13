@@ -21,6 +21,20 @@ tag: 闪马
   `pip list --outdated` #列出所有过期的库
 * .过期库更新：
   `pip install --upgrade 库名` 
+* .python复制文件
+```python
+from shutil import copyfile
+copyfile(src, dst)
+#src:源文件
+#dst：目标文件
+```
+* .python进度条
+```python
+from tqdm import tqdm
+for i in tqdm(range(1000)):   #tqdm(iterator),里面可以是任何可迭代对象
+	pass  
+>>>100%|███████████████████████████████████| 857K/857K [00:04<00:00, 246Kloc/s]
+```
 
 ### 3.Linux常用命令：
 * .tar 解包: (前面+z是达成zip包，不加是打包）
@@ -44,8 +58,10 @@ tag: 闪马
    `ls -l|grep "^-"| wc -l`(其中双引号要改成英文的，不然会出错）
 * .linux 查看某文件夹下头10个文件：
    `ls|head -n 10`
-* .把一个文件复制到另一个文件夹：
+* .把一个文件复制到另一个文件夹：(注意后面的`.`，表示包括隐藏文件，`*`表示不包括隐藏文件的字文件，如果不加，表示连上级文件夹`dir1/`一起复制过去:
   `cp -r dir1/. dir2`
+* .检查linux服务器的文件系统的磁盘空间占用情况:
+  `df [operate][file]`  常用命令 `df -h`(宜读模式)
 
 ### 4.git常用操作：（前5个是上传下载一般流程）
 * .查看当前git仓库状态：
@@ -66,7 +82,7 @@ tag: 闪马
 * .查看分之状况：
   `git branch -a`
 * .相关知识：
-  https://blog.csdn.net/u013374164/article/details/78644576
+  `https://blog.csdn.net/u013374164/article/details/78644576`[跳转](https://blog.csdn.net/u013374164/article/details/78644576)
 
 ### 5.vim常用操作：
 * .使vim带格式粘贴：

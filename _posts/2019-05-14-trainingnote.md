@@ -10,7 +10,7 @@ tags: 闪马
 
 | 版本 | 数据集 |
 |-----|:-------:|
-| v0.1 | 低点位数据：训练集(212440条)：http://pqemz4kka.bkt.clouddn.com/xuhuiwaimai/waimaitrainv0.3.json；验证集(6676条)：http://pqemz4kka.bkt.clouddn.com/xuhuiwaimai/waimaivalv0.1.json |
+| waimai_v0.1 | 低点位数据：训练集(212440条)：http://pqemz4kka.bkt.clouddn.com/xuhuiwaimai/waimaitrainv0.3.json；验证集(6676条)：http://pqemz4kka.bkt.clouddn.com/xuhuiwaimai/waimaivalv0.1.json |
 
 * 训练记录：
 
@@ -31,6 +31,8 @@ tags: 闪马
 |5-29|resnet18_112|50|0.1|20,30,40|no|no|0.5|0.002|yes|1.2|91.06%||
 |5-30|glore_resnet18_112|50|0.1|20,30,40|no|no|0.5|0.002|no|/|90.30%||
 |5-30|mixup_glore_resnet18_112|50|0.1|20,30,40|no|no|0.5|0.002|yes|0.2|90.96%||
+|5-31|mixup_glore_resnet18_112|50|0.1|20,30,40|no|no|0.5|0.002|yes|0.8|91.26%||
+
 
 
 
@@ -87,4 +89,7 @@ tags: 闪马
 鉴于acc在第30个epoch后有回落的趋势，使用mixup继续尝试。
 *	参数设置：alpha=0.2,其他参数不变。训练结果：best_acc=90.96,在第30个epoch。
 
+`5月31日 周五 阴`
+* 1.外卖分类训练，昨天加入mixup厚度glore_resnet18_112第一次训练并没有得到如预期般的结果，
+*	调整参数alpha=0.8，其他参数不变继续训练。训练结果：best_acc=91.26%,在第37个epoch。
 

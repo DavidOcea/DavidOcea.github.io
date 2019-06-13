@@ -237,6 +237,7 @@ jekyll 3.1.1 | Error:  jekyll-sitemap
 
 ```
 $ jekyll server
+$ bundle exec jekyll serve (这个比较靠谱，亲测有效）
 
 ```
 提示

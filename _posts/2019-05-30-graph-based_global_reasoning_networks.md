@@ -1,6 +1,6 @@
 ---
 layout: post
-title: GB-GRN(基于图形的全局推理网络)
+title: (论文)GB-GRN(基于图形的全局推理网络)
 date: 2019-05-30 
 tags: 深度学习/闪马  
 ---

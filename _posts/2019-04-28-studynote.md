@@ -25,5 +25,10 @@ https://zhuanlan.zhihu.com/p/45611376
 ### .pytorch 模型可视化之tensorboardx(最新版pytorch已经可用tensorboard)
 https://github.com/lanpa/tensorboardX
 
+* 加一条blog（写的很好）：https://www.aiuai.cn/aifarm646.html
+
 ### .pytorch中文文档，里面有关于网络搭建，各种数据集下载，深度学习应用等知识
 https://pytorch-cn.readthedocs.io/zh/latest/torchvision/torchvision-datasets/
+
+### .Matplotlib 可视化最有价值的 50 个图表（附完整 Python 源代码）
+https://yq.aliyun.com/articles/682843
