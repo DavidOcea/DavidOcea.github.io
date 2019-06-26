@@ -32,3 +32,7 @@ https://pytorch-cn.readthedocs.io/zh/latest/torchvision/torchvision-datasets/
 
 ### .Matplotlib 可视化最有价值的 50 个图表（附完整 Python 源代码）
 https://yq.aliyun.com/articles/682843
+
+### .Docker的迁移与恢复
+https://www.cnblogs.com/wq3435/p/6516024.html
+
