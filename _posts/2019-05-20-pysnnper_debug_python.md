@@ -1,6 +1,6 @@
 ---
 layout: post
-title: python调试器：PySnooper用法
+title: (奇技淫巧)python调试器：PySnooper用法
 date: 2019-05-20
 tags: python/闪马
 ---

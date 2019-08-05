@@ -46,7 +46,9 @@ tags: 闪马
 |  06-24   |   waimaiV0.2.2   |  resnet18_112   |  /   |  alpha：0.8   |  bast_acc=93.03%<br> {'meituan': 92.60, 'ele': 91.22, 'other': 94.44, 'person': 89.93}<br>[[ 313    0   24    1]<br>[   0  343   28    5]<br>[   18    6 2023  95]<br>[  17   17  296 2948]]  |
 |  06-25   |   waimaiV0.2.3   |  resnet18_112   |  epochs: 50<br>train_batch: 256<br>test_batch: 200<br>base_lr: 0.01<br>lr_schedule: [20, 30, 40]<br>gamma: 0.1<br>momentum: 0.9<br>weight_decay: 0.002<br>fix_bn: False<br>num_classes: 4<br>base_size: [128,128]<br>crop_size: 112<br>dropout: 0.5   |     |  bast_acc=93.01%<br>resize_size: [112,112]测试：<br> {'meituan': 89.94, 'ele': 90.42, 'other': 95.00, 'person': 89.78}<br>[[ 304    0   28    6]<br>[   0  340   30    6]<br>[   14    5 2035  88]<br>[  23   13  299 2943]]<br>resize_size: [128,128]测试：{‘meituan’: 92.604, 'ele': 91.489, 'other': 91.643, 'person': 94.112}  |
 |  06-25   |   waimaiV0.2.3   |  resnet18_112   |  /   |  alpha：0.8   |  bast_acc=93.56%<br> {'meituan': 94.37, 'ele': 94.41, 'other': 93.69, 'person': 91.64}<br>[[ 319    0   17    2]<br>[   0  355   16    5]<br>[   13    13 2007  109]<br>[  16   16  242 3004]]<br>resize_size: [128,128]测试：<br>{‘meituan’: 94.08, 'ele': 96.54, 'other': 90.57, 'person': 95.11}  |
-
+|  06-27   |   waimaiV0.2.3   |  shuffle_resnet18_112   |  /   |  /   |  best_acc:92.14<br> {‘meituan’: 90.23, 'ele': 93.88, 'other': 91.36, 'person': 91.91}  |
+|  06-27   |   waimaiV0.2.3   |  shuffle_resnet18_112   |  /   |  alpha：0.8   |  best_acc:91.08<br> {‘meituan’: 91.71, 'ele': 94.68, 'other': 89.72, 'person': 91.24}  |
+|  06-28   |   waimaiV0.2.3   |  resnet18_112   |  /   |  lr_scheduler: 'cosine'   |  best_acc:92.32<br> {‘meituan’: 83.72, 'ele': 92.02, 'other': 93.93, 'person': 91.33}  |
 
 
 
@@ -62,6 +64,12 @@ tags: 闪马
 |  06-10   |   vehicleV0.1   |  resnet18_112   |  /   |  alpha=0.2<br>base_lr=0.01   |  best_acc：91.74% <br>  {'bus':96.50, 'car': 96.98, 'muck-truck': 99.50, 'pick-up': 91.00, 'truck':95.50, ‘light-bus’:75.38}   |
 |  06-10   |   vehicleV0.1   |  resnet18_112   |  /   |  base_lr=0.01   |  best_acc：best_acc:91.40% <br> {'car': 94.97, 'pick-up': 86.00, 'light-bus': 78.89, 'bus': 96.50, 'truck': 92.50, 'muck-truck': 100.00}    |
 |  06-11   |   vehicleV0.1_update   |  resnet18_112   |  /   |  /   |  best_acc：90.15% <br>  {'car': 93.46, 'pick-up': 88.00, 'light-bus': 79.39, 'bus': 96.50, 'truck': 87.50, 'muck-truck': 100.00}   |
+|  06-26   |   vehicleV0.1_update   |  resnet18_112   |  /   |  base_lr=0.01<br>base_size:[108,108]<br>crop_size: 96   |  best_acc:90.48，第11个epoch <br> {‘car’: 84.92, 'pick-up': 88.55, 'light-bus': 82.58, 'bus': 94.92, 'truck': 90.50, ‘muck-truck': 100.00}   |
+|  06-26   |   vehicleV0.1_update   |  resnet18_112   |  /   |  base_lr=0.01<br>base_size:[108,108]<br>crop_size: 96<br>alpha:0.8    |  best_acc:92.40，第18个epoch <br>  {'car': 93.46, 'pick-up': 98.01, 'light-bus': 85.57, 'bus': 94.92, 'truck': 83.00, ‘muck-truck': 100.00}   |
+|  06-26   |   vehicleV0.1_update   |  resnet18_112   |  /   |  base_lr=0.01<br>base_size:[60,60]<br>crop_size: 56    |  best_acc:90.57，第21个epoch <br>  {'car': 92.46, 'pick-up': 84.57, 'light-bus': 74.62, 'bus': 96.44, 'truck': 93.00, ‘muck-truck': 100.00}   |
+|  06-26   |   vehicleV0.1_update   |  resnet18_112   |  /   |  base_lr=0.01<br>base_size:[60,60]<br>crop_size: 56<br>alpha:0.8    |  best_acc:92.07，第22个epoch <br>  {'car': 93.97, 'pick-up': 90.54, 'light-bus': 73.63, 'bus': 97.46, 'truck': 92.00, ‘muck-truck': 100.00}   |
+
+
 
 
 
@@ -156,3 +164,13 @@ tags: 闪马
 * 上面的是resize_size: [112,112]，下面用resize_size: [128,128]，结果如下：{‘meituan’: 94.08, 'ele': 96.54, 'other': 90.57, 'person': 95.11}
 * 比较两个训练结果，发现，112剪裁的时候在测试集中误检少于128，但是在验证集中用128有助于减少误检。
 
+`6月26日 周三 阴`
+* 1.大小车分类训练：
+* 设定参数：base_lr=0.01，base_size: [108,108]，crop_size: 96，其他参数默认。训练结果：best_acc:90.48，第11个epoch，{‘car’: 84.92, 'pick-up': 88.55, 'light-bus': 82.58, 'bus': 94.92, 'truck': 90.50, ‘muck-truck': 100.00}
+* 修改参数：base_lr=0.01，alpha:0.8,base_size: [108,108]，crop_size: 96，其他参数默认。训练结果：best_acc:92.40，第18个epoch，{‘car’: 93.46, 'pick-up': 98.01, 'light-bus': 85.57, 'bus': 94.92, 'truck': 83.00, ‘muck-truck': 100.00}
+* 修改参数：base_lr=0.01，base_size: [60,60]，crop_size: 56，train_batch: 512，其他参数默认。训练结果：best_acc:90.57，第21个epoch，{‘car’: 92.46, 'pick-up': 84.57, 'light-bus': 74.62, 'bus': 96.44, 'truck': 93.00, ‘muck-truck': 100.00}
+* 修改参数：base_lr=0.01，base_size: [60,60]，crop_size: 56，train_batch: 512，alpha:0.8，其他参数默认。训练结果：best_acc:92.07，第22个epoch，{‘car’: 93.97, 'pick-up': 90.54, 'light-bus': 73.63, 'bus': 97.46, 'truck': 92.00, ‘muck-truck': 100.00}
+
+`6月28日 周五 晴`
+* 1.外卖分类：
+* 采用cosine学习率变化曲线，其他参数默认。训练结果：best_acc:91.08 ,第35个epoch，{‘meituan’: 83.72, 'ele': 92.02, 'other': 93.93, 'person': 91.33},这个把other的效果提高了，但是美团的效果变差了。

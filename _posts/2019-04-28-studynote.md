@@ -35,4 +35,25 @@ https://yq.aliyun.com/articles/682843
 
 ### .Docker的迁移与恢复
 https://www.cnblogs.com/wq3435/p/6516024.html
+* 补充，非常好的docker使用教程（其中有笔记中没有的部分）：https://www.jianshu.com/p/1aa13e55c778?utm_campaign=maleskine&utm_content=note&utm_medium=reader_share&utm_source=weibo
 
+### tensorRT4中文文档（目前找到翻译的挺好的）
+https://blog.csdn.net/qq_36673141/article/details/84029084
+
+### githup相关的的浏览器插件（更好的用githup，其中第一个OctoLinker插件最实用，可以让githup有跳转功能）
+所有插件地址：https://mp.weixin.qq.com/s?__biz=MzI4MTQ2NjU5NA==&mid=2247490992&idx=1&sn=977d44cbd26adc282a536457b8670f2e&chksm=eba99e3ddcde172b3da34a8c569882e81a07709ef9249bce7398e72d919b552fa9cf196b442d&mpshare=1&scene=1&srcid=&rd2werd=1#wechat_redirect
+OctoLinker 插件地址：https://github.com/OctoLinker/OctoLinker
+
+### 手写识别案例tensorRT应用
+https://github.com/GuanLianzheng/pytorch_to_TensorRT5
+
+### tensorRT学习笔记
+https://github.com/fusimeng/TensorRT
+
+### .ipynb文件线上打开
+https://nbviewer.jupyter.org/ 
+
+### pip源
+豆瓣：http://pypi.douban.com/simple/
+清华：https://pypi.tuna.tsinghua.edu.cn/simple
+清华大学的pip源，它是官网pypi的镜像，每隔5分钟同步一次，推荐使用。

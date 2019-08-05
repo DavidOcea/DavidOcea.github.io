@@ -1,6 +1,6 @@
 ---
 layout: post
-title: python调试器：pdb用法
+title: (奇技淫巧)python调试器：pdb用法
 date: 2019-05-20
 description: "基础操作手册"
 tag: python/闪马
