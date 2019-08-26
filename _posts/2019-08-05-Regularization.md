@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 机器学习中的正则化(Regularization)(转载)
+title: (转载)机器学习中的正则化(Regularization)
 date: 2019-08-05
 tags: 机器学习
 ---

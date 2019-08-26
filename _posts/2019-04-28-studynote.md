@@ -44,6 +44,10 @@ https://blog.csdn.net/qq_36673141/article/details/84029084
 所有插件地址：https://mp.weixin.qq.com/s?__biz=MzI4MTQ2NjU5NA==&mid=2247490992&idx=1&sn=977d44cbd26adc282a536457b8670f2e&chksm=eba99e3ddcde172b3da34a8c569882e81a07709ef9249bce7398e72d919b552fa9cf196b442d&mpshare=1&scene=1&srcid=&rd2werd=1#wechat_redirect
 OctoLinker 插件地址：https://github.com/OctoLinker/OctoLinker
 
+* git 分支处理及上传分支
+https://www.cnblogs.com/yongdaimi/p/7600052.html
+https://blog.csdn.net/qq_27437967/article/details/71189571
+
 ### 手写识别案例tensorRT应用
 https://github.com/GuanLianzheng/pytorch_to_TensorRT5
 
@@ -57,3 +61,6 @@ https://nbviewer.jupyter.org/
 豆瓣：http://pypi.douban.com/simple/
 清华：https://pypi.tuna.tsinghua.edu.cn/simple
 清华大学的pip源，它是官网pypi的镜像，每隔5分钟同步一次，推荐使用。
+
+### tensorboard 大隧道远程访问
+https://blog.csdn.net/zhaokx3/article/details/70994350
