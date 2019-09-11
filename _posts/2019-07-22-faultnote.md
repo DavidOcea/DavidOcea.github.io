@@ -89,3 +89,10 @@ tensor([[-0.8176, -0.8176, -0.8176, -0.8176, -0.8176, -0.8176, -0.8176, -0.8176]
 [Finished in 0.3s]
 ```
 
+### 20190827 解决报错 THCudaCheck FAIL file=/pytorch/aten/src/THC/THCGeneral.cpp line=405 error=11 : invalid argument
+
+原因是显卡用的RTX 2080Ti，CUDA就要装10以上，这个时候pytorch不能直接用pip装，要这样：
+```python
+pip3 install https://download.pytorch.org/whl/cu100/torch-1.0.0-cp36-cp36m-linux_x86_64.whl
+```
+

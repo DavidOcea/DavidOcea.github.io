@@ -62,6 +62,18 @@ for i in tqdm(range(1000)):   #tqdm(iterator),里面可以是任何可迭代对�
   `cp -r dir1/. dir2`
 * .检查linux服务器的文件系统的磁盘空间占用情况:
   `df [operate][file]`  常用命令 `df -h`(宜读模式)
+* 查找文件:根据名称查找文件
+  `find / -name fileneme`
+* 查看一个进程是否运行:查看所有关于tomcat的进程
+  `ps -ef|grep tomcat`
+* 查看文件，包括隐藏文件
+  `ls -al`
+* 修改文件权限
+  `chmod 777 file.java`   //file.java的权限-rwxrwxrwx，r表示读、w表示写、x表示可执行
+* 查看系统当前时间
+  `date`  命令会输出 周几 几月 几日 时间 和 时间显示格式 和年份 `Sat Jan 20 04:39:49 CST 2018`;`date +"%Y-%m-%d"`显示如下：`[root@ming xxx]# date +"%Y-%m-%d" 2018-01-20`
+* 查看线程个数（方便查看程序是否有误）
+  `ps -Lf 端口号|wc -l`
 
 ### 4.git常用操作：（前5个是上传下载一般流程）
 * .查看当前git仓库状态：

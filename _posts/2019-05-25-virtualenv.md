@@ -58,3 +58,18 @@ $ . venv/bin/deactivate
 
 这里virtualenv 有些不便，因为virtual的启动、停止脚本都在特定文件夹，可能一段时间后，你可能会有很多个虚拟环境散落在系统各处，你可能忘记它们的名字或者位置。
 
+* 4.用pip freeze查看当前安装版本
+
+```
+pip freeze
+```
+
+另外：
+
+```
+pip freeze > requirements.txt
+```
+
+这将会创建一个 requirements.txt 文件，其中包含了当前环境中所有包及 各自的版本的简单列表。您可以使用 “pip list”在不产生requirements文件的情况下， 查看已安装包的列表。这将会使另一个不同的开发者（或者是您，如果您需要重新创建这样的环境） 在以后安装相同版本的相同包变得容易。
+
+
