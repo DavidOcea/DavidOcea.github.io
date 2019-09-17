@@ -96,3 +96,15 @@ tensor([[-0.8176, -0.8176, -0.8176, -0.8176, -0.8176, -0.8176, -0.8176, -0.8176]
 pip3 install https://download.pytorch.org/whl/cu100/torch-1.0.0-cp36-cp36m-linux_x86_64.whl
 ```
 
+### 问题：ImportError: No module named google.protobuf.internal
+
+```
+# 解决办法1
+sudo pip install protobuf
+```
+
+### 问题：ImportError: No module named cv2 报错处理
+
+```
+pip install opencv-python
+```

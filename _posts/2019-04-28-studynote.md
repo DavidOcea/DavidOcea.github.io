@@ -62,5 +62,10 @@ https://nbviewer.jupyter.org/
 清华：https://pypi.tuna.tsinghua.edu.cn/simple
 清华大学的pip源，它是官网pypi的镜像，每隔5分钟同步一次，推荐使用。
 
-### tensorboard 大隧道远程访问
+### tensorboard 打隧道远程访问
 https://blog.csdn.net/zhaokx3/article/details/70994350
+
+### 《动手学深度学习》（Dive into Deep Learning）原书中的MXNet代码实现改为PyTorch
+https://github.com/ShusenTang/Dive-into-DL-PyTorch
+
+
