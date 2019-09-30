@@ -108,3 +108,10 @@ sudo pip install protobuf
 ```
 pip install opencv-python
 ```
+
+### 问题：ModuleNotFoundError: No module named 'yaml'
+```
+pip install pyyaml
+```
+
+

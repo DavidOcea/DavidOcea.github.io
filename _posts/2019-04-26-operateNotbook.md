@@ -74,6 +74,9 @@ for i in tqdm(range(1000)):   #tqdm(iterator),里面可以是任何可迭代对�
   `date`  命令会输出 周几 几月 几日 时间 和 时间显示格式 和年份 `Sat Jan 20 04:39:49 CST 2018`;`date +"%Y-%m-%d"`显示如下：`[root@ming xxx]# date +"%Y-%m-%d" 2018-01-20`
 * 查看线程个数（方便查看程序是否有误）
   `ps -Lf 端口号|wc -l`
+* 磁盘挂载命令
+  `lsblk `查看当前磁盘情况
+  `mount /dev/vdb /root/data1 ` 将vdb挂载到root/data1目录
 
 ### 4.git常用操作：（前5个是上传下载一般流程）
 * .查看当前git仓库状态：
