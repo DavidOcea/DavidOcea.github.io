@@ -17,19 +17,19 @@ tags: python
 
 ### 目录
 
-* [01.hello，装饰器](#hello decorator)
-* [02.入门：日志打印器](#print log)
+* [01.hello，装饰器](#hello_decorator)
+* [02.入门：日志打印器](#print_log)
 * [03.入门：时间计时器](#timer)
-* [04.进阶：带参数的函数装饰器](#decorator with para 1)
-* [05.高阶：不带参数对类装饰器](#decorator without para)
-* [06.高阶：带参数的类装饰器](#decorator with para 2)
-* [07.使用偏函数与类实现装饰器](#pre_function and class with decorator)
-* [08.如何写能装饰类对装饰器？](#how to use decorator with class)
-* [09.wraps 装饰器有啥用？](#what can decorator do)
-* [10.内置装饰器：property](#internal decorator)
-* [11.其他装饰器：装饰器实战](#the others)
+* [04.进阶：带参数的函数装饰器](#decorator_with_para_1)
+* [05.高阶：不带参数对类装饰器](#decorator_without_para)
+* [06.高阶：带参数的类装饰器](#decorator_with_para_2)
+* [07.使用偏函数与类实现装饰器](#pre_function_and_class_with_decorator)
+* [08.如何写能装饰类对装饰器？](#how_to_use_decorator_with_class)
+* [09.wraps 装饰器有啥用？](#what_can_decorator_do)
+* [10.内置装饰器：property](#internal_decorator)
+* [11.其他装饰器：装饰器实战](#the_others)
 
-### <a name="hello decorator"></a>01.hello，装饰器
+### <a name="hello_decorator"></a>01.hello，装饰器
 
 装饰器的使用方法很固定
 * 1.先定义一个装饰器（帽子）
@@ -54,7 +54,7 @@ def function():
 * 将实现特定的功能代码封装成装饰器，提高代码复用率，增强代码可读性
 接下来，我将以实例讲解，如何编写出各种简单及复杂的装饰器。
 
-### <a name="print log"></a>02.入门：日志打印器
+### <a name="print_log"></a>02.入门：日志打印器
 
 首先是`日志打印器`。
 
@@ -132,7 +132,7 @@ want_sleep(10)
 
 ```
 
-### <a name="decorator with para 1"></a>04.进阶：带参数的函数装饰器
+### <a name="decorator_with_para_1"></a>04.进阶：带参数的函数装饰器
 
 通过上面两个简单的入门示例，你应该能体会到装饰器的工作原理了。
 
@@ -206,7 +206,7 @@ hello.
 
 ```
 
-### <a name="decorator without para"></a>05.高阶：不带参数的类装饰器
+### <a name="decorator_without_para"></a>05.高阶：不带参数的类装饰器
 
 以上都是基于函数实现的装饰器，在阅读别人代码时，还可以时常发现还有基于类实现的装饰器。
 
@@ -239,7 +239,7 @@ say hello!
 
 ```
 
-### <a name="decorator with para 2"></a>06.高阶：带参数的类装饰器
+### <a name="decorator_with_para_2"></a>06.高阶：带参数的类装饰器
 
 上面不带参数的例子，你发现没有，只能打印`INFO`级别的日志，正常情况下，我们还需要打印`DEBUG WARNING`等级别的日志。这就需要给类装饰器传入参数，给这个函数指定级别了
 
@@ -273,7 +273,7 @@ say hello!
 
 ```
 
-### <a name="pre_function and class with decorator"></a>07.使用偏函数与类实现装饰器
+### <a name="pre_function_and_class_with_decorator"></a>07.使用偏函数与类实现装饰器
 
 绝大多数装饰器都是基于函数和闭包实现的，但这并非制造装饰器的唯一方式。
 
@@ -339,7 +339,7 @@ Wait for 2 seconds...
 
 ```
 
-### <a name="how to use decorator with class"></a>08.如何写能装饰类的装饰器？
+### <a name="how_to_use_decorator_with_class"></a>08.如何写能装饰类的装饰器？
 
 用 Python 写单例模式的时候，常用的有三种写法。其中一种，是用装饰器来实现的。
 
@@ -387,7 +387,7 @@ True
 
 ```
 
-### <a name="what can decorator do"></a>09.wraps 装饰器有啥用？
+### <a name="what_can_decorator_do"></a>09.wraps 装饰器有啥用？
 
 在 functools 标准库中有提供一个 wraps 装饰器，你应该也经常见过，那他有啥用呢？
 
@@ -480,7 +480,7 @@ print(wrapped.__name__)
 
 ```
 
-### <a name="internal decorator"></a>10.内置装饰器：property
+### <a name="internal_decorator"></a>10.内置装饰器：property
 
 以上，我们介绍的都是自定义的装饰器。
 
@@ -715,7 +715,7 @@ in __get__
 
 如对上面代码的运行原理，有疑问的同学，请务必结合上面两点说明加以理解，那两点相当关键。
 
-### <a name="the others"></a>11.其他装饰器：装饰器实战
+### <a name="the_others"></a>11.其他装饰器：装饰器实战
 
 读完并理解了上面的内容，你可以说是Python高手了。别怀疑，自信点，因为很多人都不知道装饰器有这么多用法呢。
 
